@@ -1,62 +1,12 @@
 # Overview
 
-GitHub hosts over 25 million repositories containing applications of all
-shapes and sizes. But GitHub is just a start---those applications still
-need to get built, released, and managed to reach their full potential.
-
-[Azure Pipelines](https://azure.microsoft.com/services/devops/pipelines/) that
-enables you to continuously build, test, and deploy to any platform or
-cloud. It has cloud-hosted agents for Linux, macOS, and Windows;
-powerful workflows with native container support; and flexible
-deployments to Kubernetes, VMs, and serverless environments.
-
-Azure Pipelines provides unlimited CI/CD minutes and 10 parallel jobs to
-every GitHub open source project for free. All open source projects run
-on the same infrastructure that our paying customers use. That means
-you'll have the same fast performance and high quality of service. Many
-of the top open source projects are already using Azure Pipelines for
-CI/CD, such as Atom, CPython, Pipenv, Tox, Visual Studio Code, and
-TypeScript---and the list is growing every day.
-
-In addition to Azure Pipelines, GitHub users can also benefit from
-[Azure Boards](https://azure.microsoft.com/services/devops/boards/), a
-set of features that enable you to plan, track, and discuss work across
-your teams using Kanban boards, backlogs, team dashboards, and custom
-reporting. You can link GitHub activities from Azure Boards by
-mentioning them in commits and pull requests, and even automate the
-state transition of linked work items when pull requests are approved.
-
 In this demo, you'll see how easy it is to set up Azure Pipelines and
 Azure Boards with your GitHub projects and how you can start seeing
 benefits immediately.
 
 # Demo Scenario
 
-In this demo, we'll be illustrating the integration and automation benefits of Azure DevOps. We will take on the role of helping a
-fictitious airline---Contoso Air---that has developed their flagship web site using Node.js. To improve their operations, they want to implement
-pipelines for continuous integration and continuous delivery so that they can quickly update their public services and take advantage of the
-full benefits of DevOps and the cloud.
-
-The site will be hosted in Azure, and they want to automate the entire process so that they can spin up all the infrastructure needed to deploy
-and host the application without any manual intervention. Once this process is in place, it will free up their technology teams to focus
-more on generating business value.
-
-# Key Takeaways
-
-The key takeaways of the demo are:
-
--   Microsoft provides the only comprehensive DevOps solution that spans
-    from development to project management to deployment to operations.
-
--   It doesn't matter what technologies of processes you're using---even
-    setting up a Node.js solution on GitHub to deploy to a Linux
-    container that connects to a Cosmos DB is a seamless,
-    straightforward experience.
-
--   Azure offers a practical approach to automation at every step of the
-    DevOps lifecycle that enables companies to focus their efforts on
-    creating business value.
-
+In this demo, we'll be illustrating the integration and automation of Azure DevOps with GitHub. 
 
 =============
 
