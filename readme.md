@@ -30,6 +30,17 @@ In this demo, you'll see how easy it is to set up Azure Pipelines and
 Azure Boards with your GitHub projects and how you can start seeing
 benefits immediately.
 
+# Demo Scenario
+
+In this demo, we'll be illustrating the integration and automation benefits of Azure DevOps. We will take on the role of helping a
+fictitious airline---Contoso Air---that has developed their flagship web site using Node.js. To improve their operations, they want to implement
+pipelines for continuous integration and continuous delivery so that they can quickly update their public services and take advantage of the
+full benefits of DevOps and the cloud.
+
+The site will be hosted in Azure, and they want to automate the entire process so that they can spin up all the infrastructure needed to deploy
+and host the application without any manual intervention. Once this process is in place, it will free up their technology teams to focus
+more on generating business value.
+
 # Key Takeaways
 
 The key takeaways of the demo are:
@@ -88,26 +99,13 @@ Once the repo is forked, clone the GitHub repo locally and open it in Visual Stu
   - [ ] Choose **Open Repository** when prompted
 
 **Azure Subscription**
-
-    >[!note] We will be publishing a node-based web app that has a Cosmos DB (Mongo DB)  backend. You will need an Azure subscription. If you do not want to deploy to your subscription, you can use the Azure Pass provided for this technical workshop. See the **resources** tab for your Azure pass code. You will need to go to [https://www.microsoftazurepass.com](https://www.microsoftazurepass.com/) and redeem that code against any MSA. Then you would use the MSA to log into the Azure Portal. 
-
 - [ ] Open a new tab and navigate to [https://dev.azure.com](https://dev.azure.com)  to create a new Azure DevOps org/account. Select **Start for free**. Enter the same credentials you entered to login to Azure 
 
 **OR**
 
  - [ ] You can use the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator-staging.azurewebsites.net/?name=ContosoAir-V1) to spin up a new project  
 
-============
-# Demo Scenario
-
-In this demo, we'll be illustrating the integration and automation benefits of Azure DevOps. We will take on the role of helping a
-fictitious airline---Contoso Air---that has developed their flagship web site using Node.js. To improve their operations, they want to implement
-pipelines for continuous integration and continuous delivery so that they can quickly update their public services and take advantage of the
-full benefits of DevOps and the cloud.
-
-The site will be hosted in Azure, and they want to automate the entire process so that they can spin up all the infrastructure needed to deploy
-and host the application without any manual intervention. Once this process is in place, it will free up their technology teams to focus
-more on generating business value.
+# Exercises
 
 ## Exercise 1: Setting up automated CI/CD pipelines with Azure Pipelines
 
