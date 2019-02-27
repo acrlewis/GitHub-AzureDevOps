@@ -54,58 +54,48 @@ The key takeaways of the demo are:
 These items are required for this demo.
 
 1.  A GitHub account from <https://github.com>.
-
 2.  An Azure account from <https://azure.com>.
-
 3.  An Azure DevOps account from <https://dev.azure.com>
-
-> **Note:** If you are using your own machine, you will also need  the following:
-
 4.  ARM Outputs extension installed in your Azure DevOps account from
     <https://marketplace.visualstudio.com/items?itemName=keesschollaart.arm-outputs>.
-
 5.  Git installed from <https://git-scm.com/downloads>.
-
 6.  Visual Studio Code installed from <https://code.visualstudio.com>.
-
 7.  Azure Pipelines extension for Visual Studio Code installed from
     <https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines>.
-
 8.  GitHub Pull Requests extension for Visual Studio Code installed from
     <https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github>.
-
 
 ## Demo Setup
 
 You will need to perform these steps prior to presenting this demo/lab.
 
-- [] Login to the virtual machine.
+- [ ] Login to the virtual machine.
 
-- [] Inside the virtual machine, open Edge and go to https://github.com/Microsoft/ContosoAir/
+- [ ] Inside the virtual machine, open Edge and go to https://github.com/Microsoft/ContosoAir/
 
-- [] We will fork this repo. Select **Fork** and select your account. You will be prompted to enter your credentials and enter the authentication code if you have 2FA enabled for your account
+- [ ] We will fork this repo. Select **Fork** and select your account. You will be prompted to enter your credentials and enter the authentication code if you have 2FA enabled for your account
 
 Once the repo is forked, clone the GitHub repo locally and open it in Visual Studio Code.
 
-  - [] Copy the URL from the address bar
+  - [ ] Copy the URL from the address bar
   
-  - [] Start Visual Studio Code. Press **Ctrl+Shift+P** to bring the Command Palette and enter **Git: Clone** to clone the Git repository. 
+  - [ ] Start Visual Studio Code. Press **Ctrl+Shift+P** to bring the Command Palette and enter **Git: Clone** to clone the Git repository. 
       
-  - []  You will be asked for the URL of the remote repository (this will be the URL of your forked repository). Paste the URL you copied earlier
+  - [ ]  You will be asked for the URL of the remote repository (this will be the URL of your forked repository). Paste the URL you copied earlier
   
-  - [] Choose the directory under which to put the local repository
+  - [ ] Choose the directory under which to put the local repository
 
-  - [] Choose **Open Repository** when prompted
+  - [ ] Choose **Open Repository** when prompted
 
 **Azure Subscription**
 
     >[!note] We will be publishing a node-based web app that has a Cosmos DB (Mongo DB)  backend. You will need an Azure subscription. If you do not want to deploy to your subscription, you can use the Azure Pass provided for this technical workshop. See the **resources** tab for your Azure pass code. You will need to go to [https://www.microsoftazurepass.com](https://www.microsoftazurepass.com/) and redeem that code against any MSA. Then you would use the MSA to log into the Azure Portal. 
 
-- [] Open a new tab and navigate to [https://dev.azure.com](https://dev.azure.com)  to create a new Azure DevOps org/account. Select **Start for free**. Enter the same credentials you entered to login to Azure 
+- [ ] Open a new tab and navigate to [https://dev.azure.com](https://dev.azure.com)  to create a new Azure DevOps org/account. Select **Start for free**. Enter the same credentials you entered to login to Azure 
 
 **OR**
 
- - [] You can use the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator-staging.azurewebsites.net/?name=ContosoAir-V1) to spin up a new project  
+ - [ ] You can use the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator-staging.azurewebsites.net/?name=ContosoAir-V1) to spin up a new project  
 
 ============
 # Demo Scenario
